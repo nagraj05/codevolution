@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Metadata } from 'next';
 
-export default function ProductDetails({params}) {
+export const generateMetadata = ({ params }) => {
+  return {
+    title: `Products ${params.productId}`
+  };
+};
+
+export default function ProductDetails({ params }) {
   return (
-    <div>DEtails about product {params.productId}</div>
-  )
+    <div>Details about product {params.productId}</div>
+  );
 }
