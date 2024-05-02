@@ -1,4 +1,5 @@
+import Card from "@/components/card";
 
 export default function ComplexDashboardPage() {
-  return <div>Complex Dashboard</div>;
+  return <Card>Complex Dashboard</Card>;
 }

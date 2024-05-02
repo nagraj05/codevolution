@@ -8,8 +8,7 @@ const Card = ({ children }) => {
     justifyContent: "center",
     alighItems: "center",
   };
-  return;
-  <div style={cardStyle}>{children}</div>;
+  return <div style={cardStyle}>{children}</div>;
 };
 
 export default Card;
